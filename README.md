@@ -36,8 +36,8 @@ create an environment with the included conda environment file.
 Start by cloning the repository and cd-ing into it.
 
 ```bash
-git clone https://github.com/dienerlab/[REPO]
-cd [REPO]
+git clone https://github.com/dienerlab/template
+cd template
 ```
 
 ```bash
@@ -47,16 +47,16 @@ conda env create -f conda.yml
 After that activate the environment.
 
 ```bash
-conda activate [NAME]
+conda activate template
 ```
 
 ## Reproduce the analysis
 
-### 1 - Preprocess the data | 📓 [notebook](step1.rmd) | 📊 [output](https://dienerlab.github.io/[REPO]/step1.html)
+### 1 - Preprocess the data | 📓 [notebook](step1.rmd) | 📊 [output](https://dienerlab.github.io/template/step1.html)
 
 Aliqua magna nulla nulla laboris ipsum minim ad eu ipsum. Duis mollit sunt amet ex velit proident culpa dolor enim nostrud. Esse anim consequat minim aute proident reprehenderit in excepteur aliquip. Irure veniam elit elit do officia.
 
-### 2 - Run the analysis for Figure 1 | 📓 [notebook](step2.rmd) | 📊 [output](https://dienerlab.github.io/[REPO]/step2.html)
+### 2 - Run the analysis for Figure 1 | 📓 [notebook](step2.rmd) | 📊 [output](https://dienerlab.github.io/template/step2.html)
 
 Aliqua magna nulla nulla laboris ipsum minim ad eu ipsum. Duis mollit sunt amet ex velit proident culpa dolor enim nostrud. Esse anim consequat minim aute proident reprehenderit in excepteur aliquip. Irure veniam elit elit do officia.
 
