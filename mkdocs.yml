@@ -24,7 +24,7 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
-  logo: architeuthis.webp
+  logo: material/chart-sankey
   features:
     - navigation.tracking
     - navigation.instant
