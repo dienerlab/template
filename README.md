@@ -12,13 +12,15 @@ bioRxiv 202X.Y; doi: https://doi.org/XYZ
 
 ```bash
 [project root]
-├─ step1.rmd    # individual analysis steps
+├─ step1.rmd      # individual analysis steps
 ├─ step2.rmd
-├─ data         # contains additional and generated data
-├─ figures      # generated figures
+├─ data           # contains additional and generated data
+│  ├─ data.csv
+│  ├─ ...
+├─ figures        # generated figures
 │  ├─ fig1.png
 │  └─ ...
-└─ outputs
+└─ docs
    ├─ step1.html  # rendered and executed notebooks
    └─ step2.html
 ```
@@ -55,8 +57,12 @@ conda activate [NAME]
 
 Aliqua magna nulla nulla laboris ipsum minim ad eu ipsum. Duis mollit sunt amet ex velit proident culpa dolor enim nostrud. Esse anim consequat minim aute proident reprehenderit in excepteur aliquip. Irure veniam elit elit do officia.
 
-### 2 - Run the analysis | 📓 [notebook](step2.rmd) | 📊 [output](https://dienerlab.github.io/[REPO]/step2.html)
+### 2 - Run the analysis for Figure 1 | 📓 [notebook](step2.rmd) | 📊 [output](https://dienerlab.github.io/[REPO]/step2.html)
 
 Aliqua magna nulla nulla laboris ipsum minim ad eu ipsum. Duis mollit sunt amet ex velit proident culpa dolor enim nostrud. Esse anim consequat minim aute proident reprehenderit in excepteur aliquip. Irure veniam elit elit do officia.
 
+## Getting help
 
+For bug reports or feature request please submit [an issue](issues).
+
+For general questions or getting help you can open a [discussion topic](discussions).
