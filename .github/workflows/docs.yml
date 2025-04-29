@@ -28,7 +28,6 @@ jobs:
             else
                 echo 'No index page, replacing with README.'
                 cp README.md docs/index.md
-                cp *.rmd docs/
             fi
 
       - uses: actions/cache@v4
