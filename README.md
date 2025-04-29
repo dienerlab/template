@@ -27,9 +27,6 @@ bioRxiv 202X.Y; doi: https://doi.org/XYZ
 
 ## Setup and installation
 
-> [!WARNING]
-> We have tested this on Linux and Mac only.
-
 You will need a working miniforge or miniconda to start. You can follow the [installation
 instructions here](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install). After
 create an environment with the included conda environment file.
