@@ -1,3 +1,5 @@
+[![docs](https://github.com/dienerlab/template/actions/workflows/docs.yml/badge.svg)](https://github.com/dienerlab/template)
+
 # 🦠🧬💻 Project Title
 
 This repository contains scripts and additional data for XYZ.
